@@ -87,6 +87,6 @@ function bg_kill {
             echo "File found, process terminated if exists";
         fi
     fi
-    echo "This script DOES NOT remote pid.kill file, remove it yourself!";
+    echo "This script DOES NOT automatically remove pid.kill file, remove it yourself!";
     #return
 }
