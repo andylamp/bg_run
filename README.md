@@ -40,6 +40,15 @@ when launching `bg_kill` as such:
 $ bg_kill
 ```
 
+Then, if we had launched the previous command then we would get the following output:
+
+```
+$ bg_kill
+Warning -- no argument supplied, trying default loc: ~/pid.kill
+This script DOES NOT remote pid.kill file, remove it yourself!
+[1]+  Terminated: 15          $1 > $parent_dir/out.log 2> $parent_dir/err.log
+```
+
 Optionally, you can specify which file contains the `pid` of the background process as such:
 
 ```
