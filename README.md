@@ -40,7 +40,8 @@ when launching `bg_kill` as such:
 $ bg_kill
 ```
 
-Then, if we had launched the previous command then we would get the following output:
+Then, if we had launched the previous command we would expect the following output when running `bg_kill`
+with no arguments:
 
 ```
 $ bg_kill
